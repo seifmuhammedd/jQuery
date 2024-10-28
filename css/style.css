@@ -1,5 +1,5 @@
 /* SideBar CSS */
-aside{
+aside {
     height: 100vh;
     width: 250px;
     position: fixed;
@@ -7,64 +7,68 @@ aside{
     z-index: 99;
     background-color: black;
     transition: 0.2s;
- }
- aside .open{
-     position: absolute;
-     right: -50%;
- }
- 
- aside span{
-     margin-top: 70px;
-     font-size: 30px;
-     font-weight: 400;
-     line-height: 45px;
-     cursor: pointer;
- }
- 
- aside .links a{
-     color: white;
-     text-decoration: none;
-     padding-block: 20px;
-     font-size: 25px;
-     line-height: 38px;
-     font-weight: 400;
-     transition: color 0.2s;
- }
- aside .close{
-     color: white;
-     transition: color 0.2s;
- }
- aside .links a:hover , aside .close:hover{
-     color: #531512;
- }
+}
+
+aside .open {
+    position: absolute;
+    right: -50%;
+}
+
+aside span {
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+aside .links a {
+    color: white;
+    text-decoration: none;
+    padding-block: 20px;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 400;
+    transition: color 0.2s;
+}
+
+aside .close {
+    color: white;
+    transition: color 0.2s;
+}
+
+aside .links a:hover,
+aside .close:hover {
+    color: #531512;
+}
 
 /* Home CSS */
 
-.home{
-    background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%),url(../images/events-heavenly-header.jpg);
+.home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%), url(../images/events-heavenly-header.jpg);
     background-size: cover;
     background-position: center;
     height: 85vh;
 }
 
-.home-content{
+.home-content {
     position: relative;
 }
 
-.home-content h2{
+.home-content h2 {
     font-size: 60px;
     font-weight: 500;
     line-height: 72px;
 }
 
-.home-content p{
+.home-content p {
     font-weight: 400;
     line-height: 24px;
 }
 
 /* Singers CSS */
 
-.singers h3{
+.singers h3 {
     background-color: #E68285;
     width: 50%;
     margin: 0;
@@ -72,7 +76,8 @@ aside{
     color: white;
     cursor: pointer;
 }
-.singers .slider{
+
+.singers .slider {
     background-color: #CCCCCC;
     width: 50%;
     padding: 5px 5px;
@@ -80,4 +85,18 @@ aside{
 }
 
 /* Event CSS */
+
+.event {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%), url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.event .container .inner span {
+    border: 1px solid white;
+    padding: 60px;
+    text-align: center;
+}
+
+/* contact CSS */
 

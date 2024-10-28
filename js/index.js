@@ -13,3 +13,10 @@ $(".singers h3").on("click",function(){
     $(this).next().slideToggle(1000)
     $(".singers .slider").not($(this).next()).slideUp(1000)
 })
+
+$('#getting-started').countdown('2024/11/09', function(event) {
+    $("#day").html(event.strftime(' %D D'));
+    $("#hour").html(event.strftime('%H H'));
+    $("#minute").html(event.strftime('%M M'));
+    $("#seconed").html(event.strftime('%S S'));
+  });
