@@ -31,7 +31,7 @@
 
         <!-- Home Section -->
 
-        <section class="home d-flex justify-content-center align-items-center">
+        <section class="home d-flex justify-content-center align-items-center" id="Home">
             <div class="home-content text-center text-white">
                 <h2>ُEgyptian Party</h2>
                 <p>Let's have Fun</p>
@@ -77,26 +77,26 @@
 
         <!-- Event Section -->
 
-        <section class="event py-5">
+        <section class="event py-5" id="Duration">
             <div class="container py-5">
+                <div id="getting-started"></div>
                 <div class="row text-white py-5">
-                    <div id="getting-started"></div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 text-center">
                         <div class="inner">
                             <span class="h3" id="day"></span>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 text-center">
                         <div class="inner">
                             <span class="h3" id="hour"></span>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 text-center">
                         <div class="inner">
                             <span class="h3" id="minute"></span>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 text-center">
                         <div class="inner">
                             <span class="h3" id="seconed"></span>
                         </div>
@@ -107,9 +107,46 @@
 
         <!-- Contact Section -->
 
-        <section class="contact">
+        <section class="contact mt-5 py-5" id="Contact">
             <div class="container">
-                
+                <h2 id="Details">Join Us</h2>
+                <p class="text-center upper-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <div class="row pt-4 g-4">
+                    <div class="col-md-6">
+                        <h3>CONTACT INFO</h3>
+                        <p class="contact-text">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+                        </p>
+                        <ul class="list-unstyled px-5">
+                            <li><i class="fa-solid fa-location-dot"></i> <span> New Street 22545, Nexa Road, New York
+                                    City, USA</span></li>
+                            <li><i class="fa-solid fa-envelope"></i> <span class="special"> hello@uigrid.com</span></li>
+                            <li><i class="fa-solid fa-phone"></i> <span> 001-000-000-000</span></li>
+                        </ul>
+                        <div class="links text-center">
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                            <span><i class="fa-brands fa-dribbble"></i></span>
+                            <span><i class="fa-brands fa-pinterest"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <input type="text" class="form-control rounded-0" id="nameInput" placeholder="Enter Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control rounded-0" id="exampleFormControlInput1"
+                                placeholder="Enter Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="textAreaInput" rows="6" maxlength="100"></textarea>
+                        </div>
+                        <p class="ms-3 p-counter"><span class="text-danger counter">100</span> <span class="chars">Characters reamining</span></p>
+                        <button class="btn btn-danger px-3 py-2 rounded-0 ms-2">Send Message</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

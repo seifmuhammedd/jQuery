@@ -100,3 +100,52 @@ aside .close:hover {
 
 /* contact CSS */
 
+.contact h2{
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+}
+.contact .upper-text{
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+}
+
+.contact h3{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    color: rgb(68, 68, 68);
+}
+
+.contact .contact-text{
+    color: rgb(119, 119, 119);
+    text-align: center;
+    padding-left: 10px;
+}
+
+.contact li{
+    padding-block: 20px;
+    color: rgb(119, 119, 119);
+    line-height: 26px;
+}
+
+.contact li span{
+    margin-left: 5px;
+}
+
+.contact .special{
+    color: red;
+}
+
+.links span{
+    border: 1px solid rgb(119, 119, 119);
+    color: rgb(119, 119, 119);
+    padding: 10px 15px;
+    font-size: 22px;
+    margin-inline: 7px;
+    transition: all 0.2s;
+}
+.links span:hover{
+    background-color: red;
+}
