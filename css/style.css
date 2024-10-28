@@ -64,3 +64,20 @@ aside{
 
 /* Singers CSS */
 
+.singers h3{
+    background-color: #E68285;
+    width: 50%;
+    margin: 0;
+    padding-block: 5px;
+    color: white;
+    cursor: pointer;
+}
+.singers .slider{
+    background-color: #CCCCCC;
+    width: 50%;
+    padding: 5px 5px;
+    display: none;
+}
+
+/* Event CSS */
+
