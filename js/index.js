@@ -21,7 +21,7 @@ $(".singers h3").on("click", function () {
   $(".singers .slider").not($(this).next()).slideUp(1000);
 });
 
-$("#getting-started").countdown("2024/11/09", function (event) {
+$("#getting-started").countdown("2025/11/09", function (event) {
   $("#day").html(event.strftime(" %D D"));
   $("#hour").html(event.strftime("%H H"));
   $("#minute").html(event.strftime("%M M"));
